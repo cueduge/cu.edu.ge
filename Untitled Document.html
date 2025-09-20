@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)file:///home/kali/Desktop/fake/Untitled%20Document.html -->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Untitled Document</title>
+</head>
+
+<body class="payment">
+
+
+ 
+
+
+
+
+
+
+
+   <title>კავკასიის უნივერსიტეტი</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://programs.cu.edu.ge/cu/resources/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+  <link rel="stylesheet" href="./Untitled Document_files/bootstrap.min.css">
+     <link rel="stylesheet" href="./Untitled Document_files/styleStudents.css">
+  <script src="./Untitled Document_files/jquery.js"></script>
+  <script src="./Untitled Document_files/bootstrap.min.js"></script>
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  <script>
+      $(function(){
+    $(".dropdown-toggle").click(function(e){
+        $(this).dropdown('toggle');
+        return false;
+    });
+});
+
+    </script>
+
+<a href="https://programs.cu.edu.ge/students/piradi_menu.php" class="btn btn-default btn-sm">
+    <span class="glyphicon glyphicon-backward"></span> Back</a>
+<p> </p><p> </p><b>ალექსანდრე ურუშაძე<p></p><b><p></p><b>ვალი: 1468.73<p></p><b>    <p></p>
+<div class="container">
+ 
+ <form id="defaultForm" method="post" name="defaultForm" action="https://programs.cu.edu.ge/cu/controllers/students/C_PaymentSchedule.php" enctype="multipart/form-data" class="mainSettingsForm">
+           <label>გადახდის რაოდენობა</label><!--გადახდის რაოდენობა-->
+<select name="payment_number" class="form-control combo_faculty" id="payment_number" required="true">
+<option></option>
+      <option value="1">1</option>
+    <option value="2">2</option>
+            </select>
+
+    <label>გადახდის რიცხვი(დღე)</label><!--გადახდის რიცხვი(დღე)-->
+<select name="payment_day" class="form-control combo_faculty" id="payment_day" required="true">
+ <option></option>
+      <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+            </select>
+
+   <p></p>
+
+ <button type="button" class="btn-primary btn-lg" onclick="graf(10015453)">გრაფიკის აწყობა </button><!--გრაფიკის აწყობა-->
+ <button type="button" class="btn-primary btn-lg" onclick="grafCorect(10015453)">გრაფიკის კორექტირება</button><!--გრაფიკის კორექტირება-->
+                </form>
+
+  <p></p>
+  <!--    <div id="message_text"></div>-->
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>თარიღი -დან</th><!--თარიღი -დან-->
+        <th>თარიღი -მდე</th><!--თარიღი -მდე-->
+        <th>თანხა</th><!--თანხა-->
+        <th>გადახდილი თანხა</th><!--გად. თანხა-->
+
+      </tr>
+    </thead>
+    <tbody>
+
+       
+     <tr>
+<td><input type="text" style="border:none" id="tar" value="03/08/2025"></td>
+<td><input type="text" style="border:none" id="tar1" value="03/09/2025"></td>
+
+    <td>547.00</td>
+    <td>547.00</td>
+
+   <td style="display:none;" class="id">218260</td>
+       </tr>
+       
+     <tr>
+<td><input type="text" style="border:none" id="tar" value="03/09/2025"></td>
+<td><input type="text" style="border:none" id="tar1" value="03/10/2025"></td>
+
+    <td>547.00</td>
+    <td>153.00</td>
+
+   <td style="display:none;" class="id">218261</td>
+       </tr>
+       
+     <tr>
+<td><input type="text" style="border:none" id="tar" value="03/10/2025"></td>
+<td><input type="text" style="border:none" id="tar1" value="03/11/2025"></td>
+
+    <td>547.00</td>
+    <td></td>
+
+   <td style="display:none;" class="id">218262</td>
+       </tr>
+       
+     <tr>
+<td><input type="text" style="border:none" id="tar" value="03/11/2025"></td>
+<td><input type="text" style="border:none" id="tar1" value="03/12/2025"></td>
+
+    <td>549.08</td>
+    <td></td>
+
+   <td style="display:none;" class="id">218263</td>
+       </tr>
+       
+    </tbody>
+  </table>
+
+
+
+<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal210015453">დადასტურება</button>
+
+<!-- ინსტრუქცია -->
+<button type="button" class="btn btn-default btn-lm" data-toggle="modal" data-target="#modal3"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></button>
+
+
+
+<!--დადასტურება modali-->
+<div class="modal fade" id="modal210015453" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">დადასტურება</h4>
+          </div>
+          <div class="modal-body">
+<form id="myForm" name="myForm">
+
+    <p class="special">
+ წინამდებარე შეთანხმების დღისათვის სტუდენტის მიერ  უნივერსიტეტისთვის გადასახდელი სწავლის საფასური  შეადგენს 1591.73  GEL   .
+    </p>
+   <p class="special"> გადასახდელ სწავლის საფასურს სტუდენტი გადაიხდის შემდეგი გრაფიკის შესაბამისად: </p>
+
+      <p class="special">03/08/2025  -  03/09/2025 -------  547.00  GEL</p>
+
+   <p class="special">03/09/2025  -  03/10/2025 -------  547.00  GEL</p>
+
+   <p class="special">03/10/2025  -  03/11/2025 -------  547.00  GEL</p>
+
+   <p class="special">03/11/2025  -  03/12/2025 -------  549.08  GEL</p>
+
+
+
+
+    <p class="special">  ამ შეთანხმებით მოცემული გრაფიკით დადგენილი გადახდის ვადის დარღვევის შემთხვევაში, სტუდენტს დაეკისრება პირგასამტეხლო ყოველ ვადაგადაცილებულ დღეზე გადასახდელი თანხის 0,1%-ის ოდენობით.
+იმ შემთხვევაში, თუ ვადაგადაცილების ვადა გადააჭარბებს 21 (ოცდაერთ) კალენდარულ დღეს, სტუდენტს დაეკისრება პირგასამტეხლო ყოველ ვადაგადაცილებულ დღეზე  გადასახდელი თანხის 0,2%-ის ოდენობით. <br>თუ ფინალური გამოცდების დაწყებამდე სტუდენტს სრულად არ ექნება გადახდილი გრაფიკით გათვალისწინებული სწავლის საფასური, მას არ ჩაეთვლება იმ სემესტრ(ებ)ის საგნებში მიღებული ნიშნები, რომელ(ებ)შიც სტუდენტს უფიქსირდება ფინანსური დავალიანება, შესაბამისად ნიშნები არ აისახება ნიშნების ელექტრონულ ბაზაში და ნიშნების ფურცელში. ამასთან, სტუდენტი არ თავისუფლდება სემესტრული გადასახადის გადახდის ვალდებულებისაგან. <br>უნივერსიტეტი უფლებამოსილია სტუდენტს არ გადასცეს პირადი საქმის საბუთები უნივერსიტეტის მიმართ ფინანსური დავალიანების არსებობის შემთხვევაში.<br> 
+
+
+    </p>
+
+
+    <p></p>
+   <p class="special"><input type="checkbox" name="chkSelect[]" id="chkSelect"><b><label>თანახმა ვარ</label></b></p>
+    <p></p>
+    <label>შეიყვანეთ მეილზე მოსული კოდი</label>
+    <p></p>
+    <input type="text" name="code" id="code">
+
+    <div class="modal-footer">
+<button type="button" class="btn btn-default" onclick="approve_graf_managers()">ok</button>
+<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+    </div>
+
+                    <p class="debug-url"></p>
+
+
+                </form>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+<!--დადასტურება modali dasasruli-->
+
+
+
+
+
+
+<!--ინსტრუქცია modali-->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">ინსტრუქცია</h4>
+          </div>
+          <div class="modal-body">
+<form>
+
+                    <p>გადასახდელი თანხის განაწილება</p>
+
+ <p class="special">სტუდენტს შეუძლია შეადგინოს გადახდის გრაფიკი თუ მას სემესტრული გადასახდელი თანხის მესამედი უკვე გადახდილი აქვს.</p>
+<p class="special"></p>
+<p class="special">ყოველთვის თანხა გაიყოფა თანაბარ ნაწილებად.</p>
+<p>გადახდის გრაფიკის შედგენა</p>
+
+<p class="special">გრაფიკის შედგენა შესაძლებებლია სტუდენტის პირადი პროფილიდან. დაჭირეთ პროგრამის მარცხენა მენიუს "<b>პირადი პროფილი</b>"-ს ლინკს და აირჩიეთ "<b>გადახდის გრაფიკი</b>". გახსნილ გვერდზე გამოვა სტუდენტის სახელი და გვარი და ვალი. ასევე "<b>გადახდის რაოდენობ</b>"-ის და  "<b>გადახდის რიცხვი(დღე)</b>"-ის ასარჩევი ველები.
+თანხის მესამედის გადახდის შემდეგ ირჩევთ იმ რაოდენობას, "<b>გადახდის რაოდენობა</b>" ველში, რამდენჯერაც გსურთ გაიყოს გადასახდელი თანხა (ზემოთ აღწერილი წესების დაცვით)  და რიცხვს, <b>გადახდის რიცხვი(დღე)</b> ველში, რომელ რიცხვშიც გსურთ, რომ გადაიხადოს გრაფიკით გაწერილი თანხა.შემდეგ აჭერს ღილაკს "<b>გრაფიკის აწყობა</b>". პროგრამა მითითებული პარამეტრებით ააწყობს გადახდის გრაფიკს, რომელიც გამოჩნდება ეკრანზე.
+გრაფიკის აწყობის შემდეგ  სტუდენტმა უნდა დაადასტუროს გრაფიკი "<b>დადასტურება</b>" ღილაკზე დაჭერით.
+რის შემდეგაც გამოდის ფანჯარა სადაც უნდა მონიშნოთ თანხმობის ჩამრთველი "<b>თანახმა ვარ</b>", მცირე დროის შემდეგ გამოვა შეტყობინება "<b>შეამოწმეთ მეილი</b>". მეილზე მოგივათ ხელშეკრულება და დადასტურების კოდი. ეს კოდი უნდა შეიყვანოთ პროგრამაში "<b>შეიყვანეთ მეილზე მოსული კოდი</b>" ველში და დააჭიროთ "ok" ღილაკს.
+თქვენი გადახდის გრაფიკი შედგენილია და თქვენ შეძლებთ აირჩიოთ თქვენთვის სასურველი ცხრილი.</p>
+<p class="special">
+თუ შეცვლით პირველი ეტაპის რეგისტრაციას, მხოლოდ მაშინ შეგეძლებათ გადახდის გრაფიკის ცვლილება "<b>გრაფიკის კორექტირება</b>" ღილაკზე დაჭერით, დადასტურების პროცედურა იგივენაირად კეთდება. თუმცა გაითვალისწინეთ რომ გადახდის დღე არ შეიცვლება.
+</p>
+
+                    <p class="debug-url"></p>
+
+
+                </form>
+          </div>
+          <div class="modal-footer">
+ <button type="button" class="btn btn-default" data-dismiss="modal">გამოსვლა</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--ინსტრუქცია modali dasasruli-->
+
+
+
+</div>
+
+
+
+
+
+<script>
+
+    $('#chkSelect').click(function(){
+
+    if($(this).is(':checked')){
+           var action = "MailSend";
+       var datas="action="+action;
+        $.ajax({
+        type: "POST",
+        url:  "C_PaymentSchedule",
+        data: datas,
+        cache:false,
+       success: function(data) {
+       if (data.length!=0){
+ // alert(data);
+
+       }
+
+    }
+         });
+    }
+});
+
+
+       function graf(str){
+        var stud_id=str;
+var tar= $("#tar").val() ;
+var lang=1;
+if (typeof(tar) != "undefined" && tar !== null){
+if( tar.length!=0){
+    if(lang==1){alert("გრაფიკი უკვე აწყობილია. ინფორმაციას ვერ შეცვლით");}
+    else{alert("The schedule is already set. You cannot change the information");}
+    return;
+        }
+    }
+
+       var payment_number =$('#payment_number').val();
+       var payment_day =$('#payment_day').val();
+  if( payment_number.length==0 || payment_day.length==0  ){
+      if(lang==1){alert("ყველა ველის შევსება სავალდებულოა");}
+      else{alert("All fields are mandatory");}
+
+    return;
+        }
+            var action = "Add";
+ var datas="action="+action+"&stud_id="+stud_id+"&payment_number="+payment_number+"&payment_day="+payment_day;
+        $.ajax({
+        type: "POST",
+        url:  "C_PaymentSchedule",
+        data: datas,
+        cache:false,
+       success: function(data) {
+          // alert(data.length);
+     if (data.length!=0){
+  alert(data);
+         window.location.reload(true);
+        }
+   else {
+         if(lang==1){alert("გრაფიკი აიწყო,დაადასტურეთ გრაფიკი");}
+         else{alert("confirm the schedule");}
+
+window.location.reload(true);
+
+  }
+    }
+    });
+
+    }
+
+        function grafCorect(str){
+        var stud_id=str;
+     var tar1= $("#tar1").val() ;
+     var tar= $("#tar").val() ;
+            var lang=1;
+if (typeof(tar) == "undefined" && tar == null){
+    if(lang==1){alert("გრაფიკი არ არის აწყობილი. კორექტირებას ვერ გააკეთებთ.");}
+    else{alert("The schedule is not set. You cannot make adjustments.");}
+
+    return;
+
+    }
+
+            var action = "Edit";
+ var datas="action="+action+"&tar1="+tar1+"&tar="+tar;
+        $.ajax({
+        type: "POST",
+        url:  "C_PaymentSchedule",
+        data: datas,
+        cache:false,
+       success: function(data) {
+     if (data.length!=0){
+   alert(data);}
+   else {
+         if(lang==1){alert("გრაფიკი დაკორექტირდა, დაადასტურეთ დაკორექტირებული გრაფიკი!");}
+         else{alert("The schedule has been adjusted, confirm the adjusted schedule!");}
+ ///window.location.reload(true);
+   }
+    }
+    });
+    }
+
+
+      function approve_graf_managers(){
+          var lang=1;
+ var check_box_values = $('#myForm [type="checkbox"]:checked').map(function () {
+        return this.value;
+    }).get();
+
+  var code= $("#code").val() ;
+
+ if (check_box_values.length==0 || code.length==0){
+     if(lang==1){alert("თანხმობის ჩამრთველი ან კოდი არ არის შეყვანილი");}
+     else{alert("No consent box or code entered");}
+
+    }
+    else {
+            var action = "Approve";
+       var datas="action="+action+"&code="+code;
+        $.ajax({
+        type: "POST",
+        url:  "C_PaymentSchedule",
+        data: datas,
+        cache:false,
+       success: function(data) {
+
+  alert(data);
+       window.location.reload(false);
+
+    }
+         });
+     }
+    }
+
+
+
+    </script>
+</b></b></b></b></body></html>

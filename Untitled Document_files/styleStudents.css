@@ -1,0 +1,53 @@
+
+  body {
+      
+    background-color: #336799;
+  }
+ 
+  .payment {
+     background-color: #eee; 
+  }
+  .grade {
+     background-color: #ffffff; 
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .container-fluid {
+      
+      padding-top: 3px;
+  }
+  
+  .bg-1 { 
+      background-color: #336799; /* Green */
+      color: #ffffff;
+  }
+
+  .bg-2 { 
+      background-color: #336799; /* Dark Blue */
+
+    
+  }
+  
+  .bg-3 { 
+      background-color: #336799; /* Dark Blue */
+     color:  #fcd036;
+    
+  }
+   
+   
+   
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+
+  .combo_faculty{width: 250px; }
+  
+
+	   p.special {text-align:justify;
+             font: normal 12px Sylfaen;
+             text-indent: 0; margin-top: 0;
+              margin-bottom: 0
+            
+            } 	
